@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Gopika &amp; Harish · Save the Date</title>
+  <meta name="description" content="Reception · Tuesday, 19 January 2027 · The Savera, Chennai">
+  <meta name="theme-color" content="#f8f1e3">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Gopika ❤ Harish · Save the Date">
+  <meta property="og:description" content="Reception · Tuesday, 19 January 2027 · The Savera, Chennai">
+  <meta property="og:image" content="assets/og.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Noto+Serif+Tamil:wght@400;600&family=Pinyon+Script&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="assets/trichy-sketch.webp">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="stage" id="stage" aria-label="Save the date: Gopika and Harish">
+
+    <!-- ===== Panorama: slides right-to-left (Trichy → names → Chennai) ===== -->
+    <div class="pano" id="pano">
+      <canvas class="trail" id="trail" aria-hidden="true"></canvas>
+      <svg class="trail-heart" id="trailHeart" viewBox="0 0 24 22" aria-hidden="true"><path d="M12 21s-9-6.1-9-12.2C3 5.2 5.6 2.5 8.6 2.5c1.6 0 2.8.8 3.4 2 .6-1.2 1.8-2 3.4-2 3 0 5.6 2.7 5.6 6.3C21 14.9 12 21 12 21z"/></svg>
+
+      <!-- Scene 1 · Trichy -->
+      <section class="scene s-trichy" aria-label="Trichy">
+        <div class="monogram" data-a="mono">
+          <svg class="mono-ring" viewBox="0 0 120 120" aria-hidden="true">
+            <circle cx="60" cy="60" r="54" pathLength="1"/>
+            <g class="sprig" transform="translate(-4 92) rotate(-58)">
+              <path d="M0 0 C 10 -4, 22 -4, 34 0"/>
+              <ellipse cx="8" cy="-4" rx="5" ry="2.2" transform="rotate(-30 8 -4)"/>
+              <ellipse cx="16" cy="-6" rx="5" ry="2.2" transform="rotate(-25 16 -6)"/>
+              <ellipse cx="24" cy="-6" rx="5" ry="2.2" transform="rotate(-15 24 -6)"/>
+              <ellipse cx="10" cy="3" rx="5" ry="2.2" transform="rotate(25 10 3)"/>
+              <ellipse cx="19" cy="3" rx="5" ry="2.2" transform="rotate(20 19 3)"/>
+            </g>
+          </svg>
+          <span class="mono-text">G<i class="mono-heart">♥</i>H</span>
+        </div>
+        <p class="tagline" data-a="tag">
+          <span class="caps">Two hearts, one journey</span>
+          <span class="caps sm">rooted in love, tradition &amp; new beginnings</span>
+        </p>
+        <div class="city city-trichy" data-a="trichyLabel">
+          <svg class="pin" viewBox="0 0 24 32" aria-hidden="true"><path d="M12 31s10-11.2 10-18.5C22 6.2 17.5 2 12 2S2 6.2 2 12.5C2 19.8 12 31 12 31z"/><circle cx="12" cy="12.5" r="3.6"/></svg>
+          <span class="city-name">Trichy</span>
+          <span class="city-ta" lang="ta">திருச்சி</span>
+          <span class="city-who">Harish’s hometown</span>
+        </div>
+        <div class="trichy-art" data-a="trichy">
+          <img class="trichy-colour" src="assets/trichy-colour.webp" alt="" aria-hidden="true">
+          <img class="trichy-sketch" src="assets/trichy-sketch.webp" alt="Pencil sketch of the Rockfort temple at Trichy on the banks of the Kaveri">
+        </div>
+      </section>
+
+      <!-- Scene 2 · Names -->
+      <section class="scene s-names" aria-label="Gopika and Harish are tying the knot · Chennai">
+        <div class="sparkles" id="sparkles" aria-hidden="true"></div>
+        <h1 class="names">
+          <span class="name n1" data-a="n1">Gopika</span>
+          <span class="amp caps" data-a="amp">and</span>
+          <span class="name n2" data-a="n2">Harish</span>
+        </h1>
+        <p class="names-ta" lang="ta" data-a="nta">கோபிகா <span class="h">♥</span> ஹரீஷ்</p>
+        <p class="knot caps" data-a="knot">are tying the knot</p>
+        <div class="city city-chennai" data-a="chennaiLabel">
+          <svg class="pin" viewBox="0 0 24 32" aria-hidden="true"><path d="M12 31s10-11.2 10-18.5C22 6.2 17.5 2 12 2S2 6.2 2 12.5C2 19.8 12 31 12 31z"/><circle cx="12" cy="12.5" r="3.6"/></svg>
+          <span class="city-name">Chennai</span>
+          <span class="city-ta" lang="ta">சென்னை</span>
+          <span class="city-who">Gopika’s hometown</span>
+        </div>
+        <img class="temple" data-a="temple" src="assets/chennai-temple.webp" alt="Watercolour of a temple by the sea in Chennai">
+      </section>
+
+      <!-- Scene 3 · Save the date + Chennai -->
+      <section class="scene s-date" aria-label="Save the date">
+        <div class="std">
+          <p class="std-title" data-a="d1">Save the Date</p>
+          <p class="std-event caps" data-a="d2">Reception <span class="ta" lang="ta">· திருமண வரவேற்பு</span></p>
+          <div class="std-row" data-a="d3">
+            <span class="std-day caps">Tuesday</span>
+            <span class="std-mid"><span class="caps">Jan</span><b>19<sup>th</sup></b></span>
+            <span class="std-year caps">2027</span>
+          </div>
+          <p class="std-venue" data-a="d4"><span class="caps">The Savera</span><span class="caps sm">Dr. Radhakrishnan Salai, Mylapore · Chennai</span></p>
+          <div class="countdown" id="countdown" data-a="d5" role="timer" aria-live="off">
+            <div class="cd"><b data-k="d">0</b><span>Days</span><i lang="ta">நாட்கள்</i></div>
+            <div class="cd"><b data-k="h">0</b><span>Hours</span><i lang="ta">மணி</i></div>
+            <div class="cd"><b data-k="m">0</b><span>Mins</span><i lang="ta">நிமிடம்</i></div>
+            <div class="cd"><b data-k="s">0</b><span>Secs</span><i lang="ta">நொடி</i></div>
+          </div>
+          <p class="cd-done" id="cdDone" hidden></p>
+          <p class="std-note" lang="ta" data-a="d6">உங்கள் வருகையை எதிர்நோக்குகிறோம்<span>We look forward to celebrating with you</span></p>
+        </div>
+        <div class="savera-art" data-a="savera">
+          <img class="savera-colour" src="assets/savera-colour.webp" alt="" aria-hidden="true">
+          <img class="savera-sketch" src="assets/savera-sketch.webp" alt="Pen sketch of The Savera hotel, Chennai">
+        </div>
+      </section>
+    </div>
+
+    <!-- ===== Water band (fixed) ===== -->
+    <div class="water" aria-hidden="true">
+      <div class="water-river"></div>
+      <div class="water-sea" id="sea"></div>
+      <div class="water-tex" id="waterTex"></div>
+      <svg class="bank" viewBox="0 0 400 10" preserveAspectRatio="none"><path d="M0 4 C 60 2, 120 6, 200 4 S 330 2, 400 5 L400 10 L0 10Z"/></svg>
+      <div class="waves w1"></div>
+      <div class="waves w2"></div>
+    </div>
+
+    <!-- ===== Boat (fixed horizontally; the world moves) ===== -->
+    <div class="boat-wrap" id="boat" aria-hidden="true">
+      <div class="boat-bob">
+        <img class="boat" src="assets/boat.webp" alt="">
+        <div class="wake"><i></i><i></i><i></i></div>
+      </div>
+    </div>
+    <div class="waves w-front" aria-hidden="true"></div>
+
+    <!-- ===== Hanging thoranam & jasmine (fixed) ===== -->
+    <svg class="garland" id="garland" aria-hidden="true"></svg>
+    <div class="petals" id="petals" aria-hidden="true"></div>
+
+    <!-- ===== Directions to the venue ===== -->
+    <a class="directions" id="directions" href="https://maps.app.goo.gl/kBxr4ChZmVJtroEg8" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 32" aria-hidden="true"><path d="M12 31s10-11.2 10-18.5C22 6.2 17.5 2 12 2S2 6.2 2 12.5C2 19.8 12 31 12 31z"/><circle cx="12" cy="12.5" r="3.6"/></svg>
+      <span>Directions</span>
+    </a>
+
+    <!-- ===== Controls ===== -->
+    <div class="controls" id="controls">
+      <button class="ctl" id="btnSound" type="button" aria-label="Mute music" aria-pressed="false">
+        <svg class="ic-on" viewBox="0 0 24 24"><path d="M4 9v6h4l5 4V5L8 9H4z"/><path class="w" d="M16 8.5a5 5 0 0 1 0 7M18.5 6a8.5 8.5 0 0 1 0 12"/></svg>
+        <svg class="ic-off" viewBox="0 0 24 24"><path d="M4 9v6h4l5 4V5L8 9H4z"/><path class="w" d="M17 9l5 6M22 9l-5 6"/></svg>
+      </button>
+      <button class="ctl" id="btnReplay" type="button" aria-label="Replay">
+        <svg viewBox="0 0 24 24"><path class="w" d="M4 12a8 8 0 1 0 2.4-5.7"/><path d="M3 3.5v5h5z"/></svg>
+      </button>
+    </div>
+
+    <!-- ===== Opening doors ===== -->
+    <div class="intro" id="intro">
+      <div class="door door-l"><div class="door-inner"></div></div>
+      <div class="door door-r"><div class="door-inner"></div></div>
+      <button class="intro-card" id="btnOpen" type="button">
+        <svg class="kolam" viewBox="0 0 200 200" aria-hidden="true">
+          <g id="kolamPetals"></g>
+          <circle class="k-line" cx="100" cy="100" r="22" pathLength="1"/>
+          <circle class="k-line" cx="100" cy="100" r="86" pathLength="1"/>
+          <g id="kolamDots"></g>
+        </svg>
+        <span class="intro-ta" lang="ta">திருமண அழைப்பிதழ்</span>
+        <span class="intro-names">Gopika <span>&amp;</span> Harish</span>
+        <span class="intro-tap caps">Tap to open</span>
+        <span class="intro-sound">🔊 best with sound on</span>
+      </button>
+    </div>
+
+    <audio id="music" src="assets/music.mp3" loop preload="auto"></audio>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

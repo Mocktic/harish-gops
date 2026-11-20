@@ -1,0 +1,11 @@
+{
+  "ride": true,
+  "parked": true,
+  "rideFrames": 288,
+  "rideFps": 24,
+  "rideSize": [
+    868,
+    588
+  ],
+  "headroom": 150
+}

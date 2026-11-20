@@ -1,0 +1,13 @@
+.venv/
+.DS_Store
+__pycache__/
+# raw source media stays local (the site only needs site/)
+*.mp3
+!site/media/music.mp3
+bike-couple*
+couples.jpeg
+reference idea.mp4
+ref-savethedate.gif
+Gopika Weds Harish_ A Tamil Wedding Journey.png
+Shri Ashtalakshmi Temple by the Sea.png
+research/
